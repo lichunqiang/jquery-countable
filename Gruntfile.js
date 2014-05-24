@@ -30,7 +30,8 @@ module.exports = function(grunt) {
         banner: '<%= banner %>'
       },
       dist: {
-        src: '<%= concat.dist.dest %>',
+        //src: '<%= concat.dist.dest %>',
+        src: 'src/jquery.<%= pkg.name %>.js',
         dest: 'dist/jquery.<%= pkg.name %>.min.js'
       },
     },
@@ -82,6 +83,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task.
-  grunt.registerTask('default', ['jshint', 'qunit', 'clean', 'concat', 'uglify']);
+  //grunt.registerTask('default', ['jshint', 'qunit', 'clean', 'concat', 'uglify']);
+  grunt.registerTask('default', ['uglify']);
 
 };
