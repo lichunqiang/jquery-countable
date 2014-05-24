@@ -15,9 +15,11 @@ In your web page:
 <script src="dist/countable.min.js"></script>
 <script>
 jQuery(function($) {
-  $.awesome(); // "awesome"
+	$('#countup').countable('start');
 });
 </script>
+
+<span class="my-banner-count" id="countup" data-from="0" data-to="9521">0000</span>
 ```
 
 ## Documentation
