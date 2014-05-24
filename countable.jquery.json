@@ -1,0 +1,26 @@
+{
+  "name": "countable",
+  "title": "Countable",
+  "description": "The best jQuery plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/lichunqiang/jquery-countable",
+  "author": {
+    "name": "light",
+    "email": "light-li@homtail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lichunqiang/jquery-countable.git"
+  },
+  "bugs": "https://github.com/lichunqiang/jquery-countable/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lichunqiang/jquery-countable/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
