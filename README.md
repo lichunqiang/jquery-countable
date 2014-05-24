@@ -1,6 +1,6 @@
 # Countable
 
-The best jQuery plugin ever.
+A jQuery plugin, who is extends from [Pro] : https://github.com/AlloyTeam/Pro
 
 ## Getting Started
 Download the [production version][min] or the [development version][max].
