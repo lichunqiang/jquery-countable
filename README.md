@@ -1,6 +1,7 @@
 # Countable
 
-A jQuery plugin, who is extends from [Pro] : https://github.com/AlloyTeam/Pro
+A jQuery plugin, who is extends from [Pro][pro_repos]
+[pro_repos]:https://github.com/AlloyTeam/Pro
 
 ## Getting Started
 Download the [production version][min] or the [development version][max].
